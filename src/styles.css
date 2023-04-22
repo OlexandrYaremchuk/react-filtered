@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body {
+  background: #e4e4e4;
+}
+
+main {
+  padding: 15px;
+  border: 2px dashed lightgray;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.todoItem {
+  border: 1px solid lightgray;
+}
+.completed {
+  color: lightgreen;
+}
+.incompleted {
+  color: lightcoral;
+}
+.filters-panel {
+  border: 2px dashed lightgrey;
+  background: #fff;
+  padding: 10px;
+}
